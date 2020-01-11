@@ -1,0 +1,41 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  calories: 1
+  total_fat: 1
+  saturated_fat: 1
+  trans_fat: 1
+  polysaturated_fat: 1
+  monosaturated_fat: 1
+  cholestrol: 1
+  sodium: 1
+  potassium: 1
+  total_carbohydrates: 1
+  dietary_fiber: 1
+  sugars: 1
+  protien: 1
+  vit_a: 1
+  vit_c: 1
+  calcium: 1
+  iron: 1
+
+two:
+  name: MyString
+  calories: 1
+  total_fat: 1
+  saturated_fat: 1
+  trans_fat: 1
+  polysaturated_fat: 1
+  monosaturated_fat: 1
+  cholestrol: 1
+  sodium: 1
+  potassium: 1
+  total_carbohydrates: 1
+  dietary_fiber: 1
+  sugars: 1
+  protien: 1
+  vit_a: 1
+  vit_c: 1
+  calcium: 1
+  iron: 1
