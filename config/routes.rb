@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   resources :ingredients
   resources :meals
   resources :users
+  resources :user_meals
+  resources :meal_ingredients
+  resources :ingredient_nutrients
 
   post '/signup', to: 'users#create', as: "signup"
   post '/login', to: 'users#login', as: "login"
