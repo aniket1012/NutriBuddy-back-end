@@ -19,6 +19,7 @@ class NutrientsController < ApplicationController
       render json: @nutrient, status: :created, location: @nutrient
     else 
       render json: @nutrient.errors, status: :unprocessable_entity 
+    end
   end
 
   def update
@@ -26,6 +27,7 @@ class NutrientsController < ApplicationController
       render json: @nutrient
     else 
       rendre json: @nutrient.errors, status: :unprocessable_entity 
+    end
   end
 
   def destroy
