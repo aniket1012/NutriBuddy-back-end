@@ -163,3 +163,14 @@ n146 = Nutrient.create(name: "water", unit: "g", qty: 0, tag_id: 255)
 n147 = Nutrient.create(name: "zinc", unit: "mg", qty: 0, tag_id: 309)
 
 puts "finshed nutrients"
+
+
+puts "creating meal"
+
+m1 = Meal.create(name: "ani's meal", calories: 711, total_fat: 33, saturated_fat: 5, trans_fat: 0, polysaturated_fat: 5, monosaturated_fat: 20, cholestrol: 0, sodium: 559, potassium: 2327, total_carbohydrates: 86, dietary_fiber: 37, sugars: 10, protien: 29, vit_a: 211, vit_c: 125, calcium: 12, iron: 59, day: "%2/%22/%22", category: "lunch")
+
+puts "created a meal"
+
+j = UserMeal.create(user_id: ani.id, meal_id: m1.id)
+
+puts "made user meal"
