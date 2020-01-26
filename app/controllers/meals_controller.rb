@@ -4,11 +4,11 @@ class MealsController < ApplicationController
   def index
     @meals = Meal.all
 
-    render json: @meals
+    render json: MealSerializer.new(@meals)
   end
 
   def show
-    render json: @meal
+    render json: MealSerializer.new(@meal)
   end
 
   def create

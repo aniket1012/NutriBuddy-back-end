@@ -4,11 +4,11 @@ class IngredientsController < ApplicationController
   def index
     @ingredients = Ingredient.all
 
-    render json: @ingredients
+    render json: IngredientSerializer.new(@ingredients)
   end
 
   def show
-    render json: @ingredient
+    render json: IngredientSerializer.new(@ingredient)
   end
 
   def create
