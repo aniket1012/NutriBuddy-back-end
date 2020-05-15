@@ -1,4 +1,4 @@
 # config/initializers/datadog.rb
 Datadog.configure do |c|
-    c.use :rails, service_name: 'staging-rails-app'
+    c.use :rails, service_name: 'my-rails-app'
 end
