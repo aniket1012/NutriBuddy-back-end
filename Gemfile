@@ -43,7 +43,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'ddtrace'
 
+# testing 
 
-# gem "nokogiri", ">= 1.10.8"
-
-# gem "actionview", ">= 6.0.2.2"
